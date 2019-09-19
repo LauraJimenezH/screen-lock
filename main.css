@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+div.main-pass {
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    height: 100vh;
+    width: 100%;
+    filter: blur(1px);
+    position: absolute;
+    z-index: -1;
+}
+
+p.title {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-top: 40px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.list-numeros {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+.list-numeros li {
+    display: inline-block;
+}
+
+.list-numeros li button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 31px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.numeros-ingresados {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.numeros-ingresados div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid white;
+}
+
