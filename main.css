@@ -25,10 +25,12 @@ p.title {
 
 .list-numeros {
     list-style-type: none;
-    display: inline-block;
-    width: 100%;
+    display: block;
+    max-width: 412px;
+    min-width: 310px;
     padding: 0px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .list-numeros li {
